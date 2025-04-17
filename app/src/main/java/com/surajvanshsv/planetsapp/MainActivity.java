@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new MyCustomAdapter(getApplicationContext(), planetArrayList);
 
         listView.setAdapter(adapter);
-
+        // on click listener for this to show toast message on this
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
